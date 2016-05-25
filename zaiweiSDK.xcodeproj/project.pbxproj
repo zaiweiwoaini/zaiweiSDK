@@ -15,7 +15,7 @@
 		39F1E62D1CF54424007A8751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F1E62B1CF54424007A8751 /* LaunchScreen.storyboard */; };
 		39F1E6381CF54424007A8751 /* zaiweiSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6371CF54424007A8751 /* zaiweiSDKTests.m */; };
 		39F1E6431CF54424007A8751 /* zaiweiSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6421CF54424007A8751 /* zaiweiSDKUITests.m */; };
-		39F1E6521CF54446007A8751 /* ZWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6511CF54446007A8751 /* ZWViewController.m */; };
+		39F1E6561CF549AA007A8751 /* ZWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6551CF549AA007A8751 /* ZWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		39F1E63E1CF54424007A8751 /* zaiweiSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zaiweiSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F1E6421CF54424007A8751 /* zaiweiSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zaiweiSDKUITests.m; sourceTree = "<group>"; };
 		39F1E6441CF54424007A8751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39F1E6501CF54446007A8751 /* ZWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWViewController.h; sourceTree = "<group>"; };
-		39F1E6511CF54446007A8751 /* ZWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWViewController.m; sourceTree = "<group>"; };
+		39F1E6541CF549AA007A8751 /* ZWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWViewController.h; sourceTree = "<group>"; };
+		39F1E6551CF549AA007A8751 /* ZWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,8 @@
 				39F1E6201CF54424007A8751 /* AppDelegate.h */,
 				39F1E6211CF54424007A8751 /* AppDelegate.m */,
 				39F1E6231CF54424007A8751 /* ViewController.h */,
+				39F1E6531CF549AA007A8751 /* ZWVC */,
 				39F1E6241CF54424007A8751 /* ViewController.m */,
-				39F1E6501CF54446007A8751 /* ZWViewController.h */,
-				39F1E6511CF54446007A8751 /* ZWViewController.m */,
 				39F1E6261CF54424007A8751 /* Main.storyboard */,
 				39F1E6291CF54424007A8751 /* Assets.xcassets */,
 				39F1E62B1CF54424007A8751 /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				39F1E6441CF54424007A8751 /* Info.plist */,
 			);
 			path = zaiweiSDKUITests;
+			sourceTree = "<group>";
+		};
+		39F1E6531CF549AA007A8751 /* ZWVC */ = {
+			isa = PBXGroup;
+			children = (
+				39F1E6541CF549AA007A8751 /* ZWViewController.h */,
+				39F1E6551CF549AA007A8751 /* ZWViewController.m */,
+			);
+			path = ZWVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F1E6251CF54424007A8751 /* ViewController.m in Sources */,
-				39F1E6521CF54446007A8751 /* ZWViewController.m in Sources */,
+				39F1E6561CF549AA007A8751 /* ZWViewController.m in Sources */,
 				39F1E6221CF54424007A8751 /* AppDelegate.m in Sources */,
 				39F1E61F1CF54424007A8751 /* main.m in Sources */,
 			);
@@ -504,6 +512,7 @@
 				39F1E6491CF54424007A8751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F1E64A1CF54424007A8751 /* Build configuration list for PBXNativeTarget "zaiweiSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				39F1E64C1CF54424007A8751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F1E64D1CF54424007A8751 /* Build configuration list for PBXNativeTarget "zaiweiSDKUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +530,7 @@
 				39F1E64F1CF54424007A8751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
