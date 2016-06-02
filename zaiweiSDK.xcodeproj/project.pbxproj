@@ -268,6 +268,7 @@
 				TargetAttributes = {
 					39F1E6191CF54424007A8751 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8P6476QFNP;
 					};
 					39F1E6321CF54424007A8751 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -601,10 +602,13 @@
 			baseConfigurationReference = 5997B847BE883F361013C975 /* Pods-zaiweiSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = zaiweiSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pingan.zaiweiSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zai.zaiweiSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -613,10 +617,13 @@
 			baseConfigurationReference = 69B7E56B6388DFCF13F49AEB /* Pods-zaiweiSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = zaiweiSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pingan.zaiweiSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zai.zaiweiSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
