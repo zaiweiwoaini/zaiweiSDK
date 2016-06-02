@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0876E08973F99761DE78B549 /* libPods-zaiweiSDKUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBCDDFB28A28E9AF43FE007 /* libPods-zaiweiSDKUITests.a */; };
 		39F1E61F1CF54424007A8751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E61E1CF54424007A8751 /* main.m */; };
 		39F1E6221CF54424007A8751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6211CF54424007A8751 /* AppDelegate.m */; };
 		39F1E6251CF54424007A8751 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6241CF54424007A8751 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		39F1E6381CF54424007A8751 /* zaiweiSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6371CF54424007A8751 /* zaiweiSDKTests.m */; };
 		39F1E6431CF54424007A8751 /* zaiweiSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6421CF54424007A8751 /* zaiweiSDKUITests.m */; };
 		39F1E6561CF549AA007A8751 /* ZWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E6551CF549AA007A8751 /* ZWViewController.m */; };
+		9724C9628719309CDA29D738 /* libPods-zaiweiSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B049F5A067F357D8804C9BBD /* libPods-zaiweiSDKTests.a */; };
+		D1471937A00A897D29D73D09 /* libPods-zaiweiSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CBF23113E6A8FC82BFAC18 /* libPods-zaiweiSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E6EA9877CC6EC2865E3D72B /* Pods-zaiweiSDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaiweiSDKUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zaiweiSDKUITests/Pods-zaiweiSDKUITests.release.xcconfig"; sourceTree = "<group>"; };
 		39F1E61A1CF54424007A8751 /* zaiweiSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zaiweiSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F1E61E1CF54424007A8751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39F1E6201CF54424007A8751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 		39F1E6441CF54424007A8751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F1E6541CF549AA007A8751 /* ZWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWViewController.h; sourceTree = "<group>"; };
 		39F1E6551CF549AA007A8751 /* ZWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWViewController.m; sourceTree = "<group>"; };
+		54CBF23113E6A8FC82BFAC18 /* libPods-zaiweiSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zaiweiSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5997B847BE883F361013C975 /* Pods-zaiweiSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaiweiSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zaiweiSDK/Pods-zaiweiSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		69B7E56B6388DFCF13F49AEB /* Pods-zaiweiSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaiweiSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-zaiweiSDK/Pods-zaiweiSDK.release.xcconfig"; sourceTree = "<group>"; };
+		71469F0561948D177A8FAD38 /* Pods-zaiweiSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaiweiSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zaiweiSDKTests/Pods-zaiweiSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		883C77CC408788B0CCC8E90A /* Pods-zaiweiSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaiweiSDKUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zaiweiSDKUITests/Pods-zaiweiSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		904E772AA5E0033FB1D49186 /* Pods-zaiweiSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaiweiSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zaiweiSDKTests/Pods-zaiweiSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		B049F5A067F357D8804C9BBD /* libPods-zaiweiSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zaiweiSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBCDDFB28A28E9AF43FE007 /* libPods-zaiweiSDKUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zaiweiSDKUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1471937A00A897D29D73D09 /* libPods-zaiweiSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9724C9628719309CDA29D738 /* libPods-zaiweiSDKTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0876E08973F99761DE78B549 /* libPods-zaiweiSDKUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				39F1E6361CF54424007A8751 /* zaiweiSDKTests */,
 				39F1E6411CF54424007A8751 /* zaiweiSDKUITests */,
 				39F1E61B1CF54424007A8751 /* Products */,
+				A9398D829F41B703A63649FE /* Pods */,
+				5E70EB817001884F6A6F52BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +170,29 @@
 			path = ZWVC;
 			sourceTree = "<group>";
 		};
+		5E70EB817001884F6A6F52BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54CBF23113E6A8FC82BFAC18 /* libPods-zaiweiSDK.a */,
+				B049F5A067F357D8804C9BBD /* libPods-zaiweiSDKTests.a */,
+				EFBCDDFB28A28E9AF43FE007 /* libPods-zaiweiSDKUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9398D829F41B703A63649FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5997B847BE883F361013C975 /* Pods-zaiweiSDK.debug.xcconfig */,
+				69B7E56B6388DFCF13F49AEB /* Pods-zaiweiSDK.release.xcconfig */,
+				71469F0561948D177A8FAD38 /* Pods-zaiweiSDKTests.debug.xcconfig */,
+				904E772AA5E0033FB1D49186 /* Pods-zaiweiSDKTests.release.xcconfig */,
+				883C77CC408788B0CCC8E90A /* Pods-zaiweiSDKUITests.debug.xcconfig */,
+				0E6EA9877CC6EC2865E3D72B /* Pods-zaiweiSDKUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39F1E6471CF54424007A8751 /* Build configuration list for PBXNativeTarget "zaiweiSDK" */;
 			buildPhases = (
+				67E72C2A59BCECC100ECDC31 /* 📦 Check Pods Manifest.lock */,
 				39F1E6161CF54424007A8751 /* Sources */,
 				39F1E6171CF54424007A8751 /* Frameworks */,
 				39F1E6181CF54424007A8751 /* Resources */,
+				C43DBB6343B50A66C7152A05 /* 📦 Embed Pods Frameworks */,
+				AB5D046300CBFD5CE4004EB2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39F1E64A1CF54424007A8751 /* Build configuration list for PBXNativeTarget "zaiweiSDKTests" */;
 			buildPhases = (
+				C7D284A5FF4E268090BED6BC /* 📦 Check Pods Manifest.lock */,
 				39F1E62F1CF54424007A8751 /* Sources */,
 				39F1E6301CF54424007A8751 /* Frameworks */,
 				39F1E6311CF54424007A8751 /* Resources */,
+				346A462098309A219632BC37 /* 📦 Embed Pods Frameworks */,
+				7092F1F8B028F53F61D62938 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39F1E64D1CF54424007A8751 /* Build configuration list for PBXNativeTarget "zaiweiSDKUITests" */;
 			buildPhases = (
+				A85DD68B6ECB40387D48ACD3 /* 📦 Check Pods Manifest.lock */,
 				39F1E63A1CF54424007A8751 /* Sources */,
 				39F1E63B1CF54424007A8751 /* Frameworks */,
 				39F1E63C1CF54424007A8751 /* Resources */,
+				5875A17EB4DCE9FE3798C02C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +325,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346A462098309A219632BC37 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaiweiSDKTests/Pods-zaiweiSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5875A17EB4DCE9FE3798C02C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaiweiSDKUITests/Pods-zaiweiSDKUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E72C2A59BCECC100ECDC31 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7092F1F8B028F53F61D62938 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaiweiSDKTests/Pods-zaiweiSDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85DD68B6ECB40387D48ACD3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5D046300CBFD5CE4004EB2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaiweiSDK/Pods-zaiweiSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43DBB6343B50A66C7152A05 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaiweiSDK/Pods-zaiweiSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D284A5FF4E268090BED6BC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39F1E6161CF54424007A8751 /* Sources */ = {
@@ -427,6 +598,7 @@
 		};
 		39F1E6481CF54424007A8751 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5997B847BE883F361013C975 /* Pods-zaiweiSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zaiweiSDK/Info.plist;
@@ -438,6 +610,7 @@
 		};
 		39F1E6491CF54424007A8751 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B7E56B6388DFCF13F49AEB /* Pods-zaiweiSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zaiweiSDK/Info.plist;
@@ -449,6 +622,7 @@
 		};
 		39F1E64B1CF54424007A8751 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71469F0561948D177A8FAD38 /* Pods-zaiweiSDKTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zaiweiSDKTests/Info.plist;
@@ -461,6 +635,7 @@
 		};
 		39F1E64C1CF54424007A8751 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904E772AA5E0033FB1D49186 /* Pods-zaiweiSDKTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zaiweiSDKTests/Info.plist;
@@ -473,6 +648,7 @@
 		};
 		39F1E64E1CF54424007A8751 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883C77CC408788B0CCC8E90A /* Pods-zaiweiSDKUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zaiweiSDKUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +660,7 @@
 		};
 		39F1E64F1CF54424007A8751 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6EA9877CC6EC2865E3D72B /* Pods-zaiweiSDKUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zaiweiSDKUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
